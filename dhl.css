@@ -1,0 +1,302 @@
+/* .form-problem{
+    box-shadow: 1px 0px 4px 3px #8b060c;
+    background: rgba(0, 0, 139, 0.5);
+    
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ */
+ .form-problem{
+    box-shadow: 1px 0px 4px 3px #8b060c;
+    background: rgba(255, 255, 255, 0.7);
+
+    
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    color:  #D40511;
+
+}
+
+* {
+    color:  #D40511;
+}
+
+
+label {
+  font-family: "Work Sans", sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    
+  font-weight: 600;
+    font-size: 50px;
+    color:  #D40511
+}
+
+.form-control:focus {
+    border-color: #FFCC00; 
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.5); 
+}
+
+.button-posalji{
+    text-align: center;
+    background-color:   #D40511;
+    color: white;
+}
+
+.button-posalji:hover{
+    text-align: center;
+    background-color:   #D40511;
+    color: white;
+    border-color: #FFCC00; 
+}
+
+/* .custom-file-input {
+    visibility: hidden; 
+    width: 0;
+} */
+.header_line{
+    height: 10px;
+    background-color: #D40511;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.logo-naslovna{
+    width: 200px;
+}
+.navbar-default .navbar-nav>li>a{
+    letter-spacing: 0.1rem;
+    font-family: "Delivery";
+    font-weight: bold;
+    font-size: 20px;
+    color: #D40511 ;
+}
+.dropdown-menu>li>a{
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: #D40511 ;
+}
+.dropdown-menu{
+    background-color: #f0efef;
+}
+.dropdown-submenu {
+    position: relative;
+}  
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.navbar
+{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: linear-gradient(to right, #FFCC00,#FFCC00,#FFCC00,#f7e28d, #f7e28d);
+    border: none;
+}
+.levi_deo .navigacija>li>a{
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: #D40511 ;
+}
+.levi_deo .navigacija>li{
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: #D40511 ;
+    list-style-type: none;
+}
+.levi_deo .navigacija{
+    text-align: left;
+}
+
+.desni_deo .navigacija>li>a{
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: #D40511 ;
+}
+.desni_deo .navigacija>li{
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: #D40511 ;
+    list-style-type: none;
+}
+.desni_deo .navigacija{
+    text-align: left;
+}
+.glavni_naslov{
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: #D40511 ;
+    margin-bottom: 45px;
+}
+
+.footer{
+    background-color:#FFCC00;
+    text-align: center;
+    font-style: oblique;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.thumbnail{
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+.thumbnail:hover{
+    box-shadow: 5px 5px 40px rgba(15,15,15,.5); 
+}
+.podnaslov{
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    color: #D40511 ;
+    margin-bottom: 45px;
+}
+h4{
+    font-style: oblique;
+}
+.naziv{
+    width: 120px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td{
+    text-align: left;
+    padding: 8px;
+}   
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th{
+    background-color: #04AA6D;
+    color: white;
+}
+body{
+    padding-top: 120px;
+    padding-bottom: 0px;
+    font-family: "Delivery", Times, serif;
+    font-style: bold;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+footer{
+    padding-bottom: 0px;
+    position:static;
+    bottom: 0px;
+    background-color:#FFCC00;
+    text-align: center;
+    font-style: oblique;
+    width: 100%;
+}
+.panel-group{
+    padding-bottom: 20%;
+}
+.srednji_deo{
+    margin-right: 150px;
+    padding-right: 150px;
+}
+
+h4{
+    padding-bottom: 0px;
+    font-family: "Delivery", Times, serif;
+    font-style: bold;
+    font-weight: bold; 
+}
+.btn-primary{
+    background-color: #D40511;
+    border: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #a50911;
+}
+.btn-default{
+    font-weight: bold;
+}
+.thumbnail{
+    padding: 0px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.7);
+}
+p{
+    font-size: 15px;
+}
+.list-group-item{
+    font-size: 15px;
+}
+.list-group-item.active{
+    background-color: #a50911;
+    border: none;
+}
+.list-group-item.active:hover{
+    background-color: #a50911;
+}
+.breadcrumb{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.levo{
+    margin-left: 0%;
+}
+h1{
+    font-size: 40px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  small{
+      color: #696868 ;
+  }
+html{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.foopas{
+    margin: 0px;
+    padding: 0px;
+}
+.img-precice{
+    border-radius: 5px;
+}
